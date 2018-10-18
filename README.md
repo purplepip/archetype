@@ -15,11 +15,12 @@ Add the following repository to your ~/.m2/settings.xml
       </repositories>
     </profile>
     
-Generate new project with
+And generate new project with
 
     mvn archetype:generate                      \
       -DarchetypeGroupId=com.purplepip          \
       -DarchetypeArtifactId=archetype           \
-      -DarchetypeVersion=1.0.0-SNAPSHOT         \
+      -DarchetypeVersion=1.0.2-SNAPSHOT         \
       -DgroupId=com.purplepip                   \
-      -Dversion=1.0.0-SNAPSHOT
+      -Dversion=1.0.0-SNAPSHOT                  \
+      -DartifactId=my-project -B
