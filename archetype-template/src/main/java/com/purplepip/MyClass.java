@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package ${groupId};
+package com.purplepip;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -22,7 +22,7 @@ class MyClass {
   private String message;
 
   MyClass(String message) {
-    LOG.info("Created ${artifactId} : {}", message);
+    LOG.info("Created my-project : {}", message);
     this.message = message;
   }
 

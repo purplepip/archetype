@@ -13,11 +13,11 @@
  * limitations under the License.
  */
 
-package ${groupId};
-
-import org.junit.jupiter.api.Test;
+package com.purplepip;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
 
 class MyClassTest {
   @Test

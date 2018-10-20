@@ -7,22 +7,31 @@
     <version>1.0.3</version>
   </parent>
 
-  <artifactId>archetype-parent</artifactId>
-  <name>purplepip archetype parent</name>
-  <version>1.0.2-SNAPSHOT</version>
-  <packaging>pom</packaging>
+  <artifactId>${artifactId}</artifactId>
+  <version>${version}</version>
 
-  <scm>
-    <connection>scm:git:git@github.com:purplepip/archetype.git</connection>
-    <developerConnection>scm:git:git@github.com:purplepip/archetype.git</developerConnection>
-    <url>git@github.com:purplepip/archetype.git</url>
-    <tag>HEAD</tag>
-  </scm>
+  <name>${artifactId}</name>
 
-  <modules>
-    <module>archetype-template</module>
-    <module>archetype-archetype</module>
-  </modules>
+  <dependencies>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+    </dependency>
+  </dependencies>
 
   <build>
     <plugins>
