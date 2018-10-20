@@ -15,18 +15,13 @@
 
 package ${groupId};
 
-import lombok.extern.slf4j.Slf4j;
+import org.junit.jupiter.api.Test;
 
-@Slf4j
-class MyClass {
-  private String message;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-  MyClass(String message) {
-    LOG.info("Created ${artifactId} : {}", message);
-    this.message = message;
-  }
-
-  String getMessage() {
-    return message;
+class MyClassTest {
+  @Test
+  void shouldHaveCorrectMessage() {
+    assertEquals("hello", new MyClass("hello").getMessage());
   }
 }
