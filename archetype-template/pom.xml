@@ -4,7 +4,7 @@
   <parent>
     <artifactId>archetype-parent</artifactId>
     <groupId>com.purplepip</groupId>
-    <version>1.0.4-SNAPSHOT</version>
+    <version>1.0.4</version>
   </parent>
 
   <artifactId>archetype-template</artifactId>
