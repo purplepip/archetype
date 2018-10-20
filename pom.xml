@@ -9,7 +9,7 @@
 
   <artifactId>archetype-parent</artifactId>
   <name>purplepip archetype parent</name>
-  <version>1.0.2-SNAPSHOT</version>
+  <version>1.0.3-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <scm>
