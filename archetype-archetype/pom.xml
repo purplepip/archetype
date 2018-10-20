@@ -10,4 +10,18 @@
   <artifactId>archetype</artifactId>
   <name>purplepip archetype</name>
 
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-resources-plugin</artifactId>
+          <configuration>
+            <addDefaultExcludes>false</addDefaultExcludes>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
 </project>
