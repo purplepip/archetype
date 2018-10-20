@@ -9,8 +9,12 @@
 
   <artifactId>${artifactId}</artifactId>
   <version>${version}</version>
-
   <name>${artifactId}</name>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>my-core</module>
+  </modules>
 
   <dependencies>
     <dependency>

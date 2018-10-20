@@ -4,5 +4,6 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/archetype-archetype" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/archetype-template" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/archetype-template/my-core" charset="UTF-8" />
   </component>
 </project>

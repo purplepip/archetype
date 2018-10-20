@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/archetype.iml" filepath="$PROJECT_DIR$/archetype.iml" />
       <module fileurl="file://$PROJECT_DIR$/archetype-archetype/archetype-archetype.iml" filepath="$PROJECT_DIR$/archetype-archetype/archetype-archetype.iml" />
       <module fileurl="file://$PROJECT_DIR$/archetype-template/archetype-template.iml" filepath="$PROJECT_DIR$/archetype-template/archetype-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/archetype-template/my-core/my-core.iml" filepath="$PROJECT_DIR$/archetype-template/my-core/my-core.iml" />
     </modules>
   </component>
 </project>

@@ -9,6 +9,11 @@
 
   <artifactId>archetype-template</artifactId>
   <name>purplepip archetype template</name>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>my-core</module>
+  </modules>
 
   <dependencies>
     <dependency>

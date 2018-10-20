@@ -10,13 +10,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="archetype-archetype" />
-        <module name="archetype-template" />
+        <module name="my-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="archetype" target="1.5" />
-      <module name="archetype-archetype" target="1.5" />
-      <module name="archetype-template" target="1.5" />
+      <module name="archetype" target="10" />
+      <module name="archetype-archetype" target="10" />
+      <module name="archetype-template" target="10" />
+      <module name="my-core" target="10" />
     </bytecodeTargetLevel>
   </component>
 </project>
