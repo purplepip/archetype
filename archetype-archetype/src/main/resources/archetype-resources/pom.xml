@@ -4,7 +4,7 @@
   <parent>
     <groupId>com.purplepip</groupId>
     <artifactId>starter</artifactId>
-    <version>1.0.4-SNAPSHOT</version>
+    <version>1.0.4</version>
   </parent>
 
   <artifactId>${artifactId}</artifactId>
@@ -25,6 +25,10 @@
       <plugin>
         <groupId>com.coveo</groupId>
         <artifactId>fmt-maven-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.jacoco</groupId>
+        <artifactId>jacoco-maven-plugin</artifactId>
       </plugin>
     </plugins>
   </build>
