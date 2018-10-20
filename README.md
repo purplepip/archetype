@@ -20,7 +20,7 @@ And generate new project with
     mvn archetype:generate                      \
       -DarchetypeGroupId=com.purplepip          \
       -DarchetypeArtifactId=archetype           \
-      -DarchetypeVersion=1.0.5                  \
+      -DarchetypeVersion=LATEST                 \
       -DgroupId=com.purplepip                   \
       -Dversion=1.0.0-SNAPSHOT                  \
       -DartifactId=my-project -B
