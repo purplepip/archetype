@@ -17,7 +17,7 @@ Add the following repository to your ~/.m2/settings.xml
     
 And generate new project with
 
-    mvn archetype:generate -DarchetypeGroupId=com.purplepip -DarchetypeArtifactId=quickstart -DarchetypeVersion=1.0.6-SNAPSHOT
+    mvn archetype:generate -DarchetypeGroupId=com.purplepip -DarchetypeArtifactId=quickstart -DarchetypeVersion=1.0.6
 
 # Starter project
 
