@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/archetype.iml" filepath="$PROJECT_DIR$/archetype.iml" />
-      <module fileurl="file://$PROJECT_DIR$/archetype-archetype/archetype-archetype.iml" filepath="$PROJECT_DIR$/archetype-archetype/archetype-archetype.iml" />
-      <module fileurl="file://$PROJECT_DIR$/archetype-template/archetype-template.iml" filepath="$PROJECT_DIR$/archetype-template/archetype-template.iml" />
-      <module fileurl="file://$PROJECT_DIR$/archetype-template/my-core/my-core.iml" filepath="$PROJECT_DIR$/archetype-template/my-core/my-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/template/my-core/my-core.iml" filepath="$PROJECT_DIR$/template/my-core/my-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quickstart/quickstart.iml" filepath="$PROJECT_DIR$/quickstart/quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/template/template.iml" filepath="$PROJECT_DIR$/template/template.iml" />
     </modules>
   </component>
 </project>

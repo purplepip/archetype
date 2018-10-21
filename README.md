@@ -17,10 +17,10 @@ Add the following repository to your ~/.m2/settings.xml
     
 And generate new project with
 
-    mvn archetype:generate                      \
-      -DarchetypeGroupId=com.purplepip          \
-      -DarchetypeArtifactId=archetype           \
-      -DarchetypeVersion=LATEST                 \
-      -DgroupId=com.purplepip                   \
-      -Dversion=1.0.0-SNAPSHOT                  \
-      -DartifactId=my-project -B
+    mvn archetype:generate -DarchetypeGroupId=com.purplepip -DarchetypeArtifactId=quickstart -DarchetypeVersion=1.0.6-SNAPSHOT
+
+# Starter project
+
+This archetype uses the [starter](https://github.com/purplepip/starter) project
+to use several useful libraries to bootstrap a project for rapid development.
+      

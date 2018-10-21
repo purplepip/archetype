@@ -4,7 +4,7 @@
   <parent>
     <groupId>com.purplepip</groupId>
     <artifactId>starter</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.6</version>
   </parent>
 
   <artifactId>archetype-parent</artifactId>
@@ -20,8 +20,8 @@
   </scm>
 
   <modules>
-    <module>archetype-template</module>
-    <module>archetype-archetype</module>
+    <module>template</module>
+    <module>quickstart</module>
   </modules>
 
   <build>
